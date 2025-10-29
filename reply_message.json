@@ -7,8 +7,8 @@
     "hero": {
       "type": "image",
       "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
-      "size": "full",
-      "aspectRatio": "20:13",
+      "size": "cover",
+      "aspectRatio": "1.51:1",
       "aspectMode": "cover",
       "margin": "none"
     },
