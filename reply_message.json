@@ -1,4 +1,7 @@
 {
+  "type": "flex",
+  "altText": "任務派送卡片",
+  "contents": {
   "type": "bubble",
   "hero": {
     "type": "image",
@@ -171,4 +174,5 @@
       "margin": "sm",
       "cornerRadius": "none"
     }
+  }
 }
