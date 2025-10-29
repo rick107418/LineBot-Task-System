@@ -1,175 +1,180 @@
 {
-  "type": "bubble",
-  "hero": {
-    "type": "image",
-    "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
-    "size": "full",
-    "aspectRatio": "20:13",
-    "aspectMode": "cover",
-    "margin": "none"
-  },
-  "body": {
-    "type": "box",
-    "layout": "vertical",
-    "contents": [
-      {
-        "type": "text",
-        "text": "請協助設定IP",
-        "weight": "bold",
-        "size": "xl"
-      },
-      {
-        "type": "box",
-        "layout": "baseline",
-        "margin": "md",
-        "contents": [
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-          },
-          {
-            "type": "icon",
-            "size": "sm",
-            "url": "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png"
-          },
-          {
-            "type": "text",
-            "text": "緊急程度",
-            "size": "sm",
-            "color": "#999999",
-            "margin": "md",
-            "flex": 0
-          }
-        ]
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "margin": "lg",
-        "spacing": "sm",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "時間",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 4
-              },
-              {
-                "type": "text",
-                "text": "10:00 - 10:30",
-                "wrap": true,
-                "color": "#666666",
-                "size": "sm",
-                "flex": 13
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-              {
-                "type": "text",
-                "text": "地點",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 4
-              },
-              {
-                "type": "text",
-                "wrap": true,
-                "color": "#666666",
-                "size": "sm",
-                "flex": 13,
-                "text": "第一辦公大樓1樓行政收發室"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "詳細資訊",
-                "color": "#aaaaaa",
-                "size": "sm",
-                "flex": 4
-              },
-              {
-                "type": "text",
-                "wrap": true,
-                "color": "#666666",
-                "size": "sm",
-                "text": "請協助黃祥銘先生設定上網資訊，分機 2686",
-                "margin": "md",
-                "flex": 14
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "horizontal",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "primary",
-        "height": "sm",
-        "action": {
-          "type": "postback",
-          "label": "接受",
-          "data": "Accept"
+  "type": "flex",
+  "altText": "任務派送卡片",
+  "contents": {
+ 
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "margin": "none"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "請協助設定IP",
+          "weight": "bold",
+          "size": "xl"
         },
-        "margin": "none",
-        "position": "relative",
-        "scaling": true,
-        "flex": 5
-      },
-      {
-        "type": "button",
-        "style": "secondary",
-        "height": "sm",
-        "action": {
-          "type": "postback",
-          "label": "拒絕",
-          "data": "Not Accept"
+        {
+          "type": "box",
+          "layout": "baseline",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "icon",
+              "size": "sm",
+              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+            },
+            {
+              "type": "icon",
+              "size": "sm",
+              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+            },
+            {
+              "type": "icon",
+              "size": "sm",
+              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+            },
+            {
+              "type": "icon",
+              "size": "sm",
+              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+            },
+            {
+              "type": "icon",
+              "size": "sm",
+              "url": "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png"
+            },
+            {
+              "type": "text",
+              "text": "緊急程度",
+              "size": "sm",
+              "color": "#999999",
+              "margin": "md",
+              "flex": 0
+            }
+          ]
         },
-        "margin": "md",
-        "position": "relative",
-        "scaling": true,
-        "flex": 5
-      }
-    ],
-    "flex": 0,
-    "margin": "sm",
-    "cornerRadius": "none"
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "時間",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "text",
+                  "text": "10:00 - 10:30",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 13
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "地點",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "text",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 13,
+                  "text": "第一辦公大樓1樓行政收發室"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "詳細資訊",
+                  "color": "#aaaaaa",
+                  "size": "sm",
+                  "flex": 4
+                },
+                {
+                  "type": "text",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "text": "請協助黃祥銘先生設定上網資訊，分機 2686",
+                  "margin": "md",
+                  "flex": 14
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "接受",
+            "data": "Accept"
+          },
+          "margin": "none",
+          "position": "relative",
+          "scaling": true,
+          "flex": 5
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "height": "sm",
+          "action": {
+            "type": "postback",
+            "label": "拒絕",
+            "data": "Not Accept"
+          },
+          "margin": "md",
+          "position": "relative",
+          "scaling": true,
+          "flex": 5
+        }
+      ],
+      "flex": 0,
+      "margin": "sm",
+      "cornerRadius": "none"
+    }
   }
 }
