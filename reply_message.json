@@ -1,90 +1,89 @@
 {
   "type": "bubble",
   "hero": {
-      "type":"image",
-      "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
-      "size": "full",
-      "aspectRatio": "20:13",
-      "aspectMode": "cover",
-      "margin": "none"
+    "type": "image",
+    "url": "https://i.ibb.co/Cpy2FPrp/office-3199438-640.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
   },
   "body": {
-      "type": "box",
-      "layout": "vertical",
-      "contents": [
-        {
-          "type": "text",
-          "text": "請協助設定IP",
-          "weight": "bold",
-          "size": "xl"
-        },
-        {
-          "type": "box",
-          "layout": "baseline",
-          "margin": "md",
-          "contents": [
-            {
-              "type": "icon",
-              "size": "sm",
-              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-            },
-            {
-              "type": "icon",
-              "size": "sm",
-              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-            },
-            {
-              "type": "icon",
-              "size": "sm",
-              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-            },
-            {
-              "type": "icon",
-              "size": "sm",
-              "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
-            },
-            {
-              "type": "icon",
-              "size": "sm",
-              "url": "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png"
-            },
-            {
-              "type": "text",
-              "text": "緊急程度",
-              "size": "sm",
-              "color": "#999999",
-              "margin": "md",
-              "flex": 0
-            }
-          ]
-        },
-        {
-          "type": "box",
-          "layout": "vertical",
-          "margin": "lg",
-          "spacing": "sm",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "baseline",
-              "spacing": "sm",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "時間",
-                  "color": "#aaaaaa",
-                  "size": "sm",
-                  "flex": 4
-                },
-                {
-                  "type": "text",
-                  "text": "10:00 - 10:30",
-                  "wrap": true,
-                  "color": "#666666",
-                  "size": "sm",
-                  "flex": 13
-                }
-              ]
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請協助設定IP",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "緊急程度",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "時間",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "10:00 - 10:30",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 13
+              }
+            ]
             },
             {
               "type": "box",
