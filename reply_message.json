@@ -1,18 +1,14 @@
 {
-  "type": "flex",
-  "altText": "任務派送卡片",
-  "contents": {
- 
-    "type": "bubble",
-    "hero": {
-      "type": "image",
+  "type": "bubble",
+  "hero": {
+      "type":"image",
       "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
-      "size": "5xl",
+      "size": "full",
       "aspectRatio": "20:13",
       "aspectMode": "cover",
       "margin": "none"
-    },
-    "body": {
+  },
+  "body": {
       "type": "box",
       "layout": "vertical",
       "contents": [
@@ -176,5 +172,4 @@
       "margin": "sm",
       "cornerRadius": "none"
     }
-  }
 }
