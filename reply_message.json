@@ -4,8 +4,7 @@
       "type":"image",
       "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg?v=1698671234",
       "size": "full",
-      "aspectRatio": "20:13",
-      "aspectMode": "cover"
+      "aspectRatio": "20:13"
   },
   "body": {
       "type": "box",
