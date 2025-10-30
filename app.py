@@ -1,7 +1,7 @@
 from flask import Flask, request, abort , send_file, make_response
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
-from linebot.models import MessageEvent, TextMessage, FlexSendMessage
+from linebot.models import MessageEvent, TextMessage, FlexSendMessage, ReplyMessageRequest, FlexMessage, FlexContainer
 # TextSendMessage,
 import os, json , time, requests
 
@@ -37,13 +37,7 @@ def handle_message(event):
 #         flex_content = json.load(f)
 
     # reply_text = "你好，我是派工系統Bot，請問您需要什麼服務？"
-    line_bot_api.reply_message(
-        event.reply_token,
-        #TextSendMessage(text=reply_text)
-        FlexSendMessage(
-            alt_text='任務派送卡片',
-            #flex_content
-            contents={
+    line_flex_json={
                         "type": "flex",
                         "altText": "任務派送卡片",
                         "contents": {
@@ -217,7 +211,14 @@ def handle_message(event):
                             }
                             }
                     }
-                                        
+    line_flex_str= json.dumps(line_flex_json)
+    line_bot_api.reply_message(
+        #TextSendMessage(text=reply_text)
+        ReplyMessageRequest(
+            event.reply_token,
+            message=[FlexMessage(alt_text='任務派送卡片',contents=FlexContainer.from_json(line_flex_str))]
+            #flex_content
+           
         )
     )
     
