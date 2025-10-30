@@ -2,8 +2,8 @@
   "type": "bubble",
   "hero": {
       "type":"image",
-      "url": "https://linebot-task-system.onrender.com/static/images/Todo_20251030-1.png",
-      "size": "5xl",
+      "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg?v=1698671234",
+      "size": "full",
       "aspectRatio": "20:13",
       "aspectMode": "cover"
   },
