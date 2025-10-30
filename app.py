@@ -1,7 +1,7 @@
 from flask import Flask, request, abort , send_file, make_response
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
-from linebot.models import MessageEvent, TextMessage, FlexSendMessage, ReplyMessageRequest, FlexMessage, FlexContainer
+from linebot.models import MessageEvent, TextMessage, FlexSendMessage, FlexMessage, FlexContainer
 # TextSendMessage,
 import os, json , time, requests
 
@@ -214,12 +214,9 @@ def handle_message(event):
     line_flex_str= json.dumps(line_flex_json)
     line_bot_api.reply_message(
         #TextSendMessage(text=reply_text)
-        ReplyMessageRequest(
-            event.reply_token,
-            message=[FlexMessage(alt_text='任務派送卡片',contents=FlexContainer.from_json(line_flex_str))]
-            #flex_content
-           
-        )
+        event.reply_token,
+        message=[FlexMessage(alt_text='任務派送卡片',contents=FlexContainer.from_json(line_flex_str))]
+        #flex_content
     )
     
 # def get_image_url(base_url):
