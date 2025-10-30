@@ -6,8 +6,12 @@ from linebot.models import MessageEvent, TextMessage, FlexSendMessage
 import os
 import json
 import time
+import requests
 
-app = Flask(__name__)
+r = requests.get("https://yourdomain.com/static/images/Todo.jpg")
+print(r.headers["Content-Type"])
+
+app = Flask(__name__, static_folder='static')
 
 line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
 handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
