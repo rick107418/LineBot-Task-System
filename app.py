@@ -51,8 +51,8 @@ def handle_message(event):
 #     return f"{base_url}?v={version}"
 
 # 使用範例
-base_url = "https://yourdomain.com/static/images/Todo.jpg"
-image_url_with_version = get_image_url(base_url)
+# base_url = "https://yourdomain.com/static/images/Todo.jpg"
+# image_url_with_version = get_image_url(base_url)
 
 if __name__ == "__main__":
     app.run()
