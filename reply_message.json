@@ -2,7 +2,7 @@
   "type": "bubble",
   "hero": {
       "type":"image",
-      "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+      "url": "https://linebot-task-system.onrender.com/static/images/Todo_20251030-1.png",
       "size": "5xl",
       "aspectRatio": "20:13",
       "aspectMode": "cover"
