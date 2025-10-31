@@ -6,7 +6,6 @@ from linebot.models import MessageEvent, TextMessage, FlexSendMessage
 import os, json , time, requests
 
 
-
 app = Flask(__name__, static_folder='static')
 
 line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
