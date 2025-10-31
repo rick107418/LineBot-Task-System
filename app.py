@@ -45,13 +45,13 @@ def handle_message(event):
         )
     )
     
-# def get_image_url(base_url):
-#     version = int(time.time())  # 或你自己定義版本號，比如 build number
-#     return f"{base_url}?v={version}"
+def get_image_url(base_url):
+   version = int(time.time())  # 或你自己定義版本號，比如 build number
+   return f"{base_url}?v={version}"
 
 # 使用範例
-# base_url = "https://yourdomain.com/static/images/Todo.jpg"
-# image_url_with_version = get_image_url(base_url)
+base_url = "https://linebot-task-system.onrender.com/static/images/Todo.jpg"
+image_url_with_version = get_image_url(base_url)
 
 if __name__ == "__main__":
     app.run()
