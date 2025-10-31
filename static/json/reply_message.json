@@ -2,7 +2,7 @@
   "type": "bubble",
   "hero": {
     "type": "image",
-    "url": "https://i.imgur.com/zL4Krbz.jpg",
+    "url": "https://linebot-task-system.onrender.com/static/images/Todo.jpg",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover"
